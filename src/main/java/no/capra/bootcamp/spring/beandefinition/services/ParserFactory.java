@@ -39,6 +39,7 @@ public class ParserFactory {
     }
 
     public ParserFactory getInstance(){
+        logger.debug("Getting ParserFactory instance.");
         return instance;
     }
 
