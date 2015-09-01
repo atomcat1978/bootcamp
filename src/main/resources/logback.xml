@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- configuration file for LogBack (slf4J implementation)
+See here for more details: http://gordondickens.com/wordpress/2013/03/27/sawing-through-the-java-loggers/ -->
+<configuration debug="true" scan="true" scanPeriod="30 seconds">
+
+    <configuration debug="true"/>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%-5level %logger{0} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="no.capra.bootcamp.spring.beandefinition" level="DEBUG" />
+    <root level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>

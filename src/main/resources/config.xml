@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+       <!-- 1. Create a PersonBean instance with no-arg constructor. Name it as noArgPerson -->
+
+       <!-- 2. Create a PersonBean instance with sur- and firstName. Name it personBean -->
+
+       <!-- 3. Create an Address bean, name it address, and set all of its fields using setter injection -->
+
+       <!-- 4. Create a PersonBean instance with sur- and firstName, and set it's Address property!  -->
+
+       <!-- 5. Create an XMLParser using the ParserFactory factory class. This task is somewhat tricky, involves an additional required step -->
+
+</beans>
