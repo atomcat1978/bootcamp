@@ -52,4 +52,11 @@ public class PersonBean {
     public void setAddress(Address address) {
         this.address = address;
     }
+
+    @Override
+    public String toString(){
+        String addressSet = (address == null)?"":address.toString();
+        return firstName+" "+surName+" address: "+addressSet;
+    }
+
 }
