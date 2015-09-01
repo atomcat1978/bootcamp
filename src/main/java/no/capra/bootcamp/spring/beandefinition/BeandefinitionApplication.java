@@ -1,5 +1,6 @@
 package no.capra.bootcamp.spring.beandefinition;
 
+import no.capra.bootcamp.spring.beandefinition.model.PersonBean;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,6 +16,8 @@ public class BeandefinitionApplication {
         logger.debug("Starting application");
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext(new String[]{"config.xml"});
         // TODO::: Get the recently created bean(s) from the application context
+
         // TODO::: Verify that everything happened as planned based on the log messages
+
     }
 }
