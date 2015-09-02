@@ -10,7 +10,7 @@
 
        <!-- 3. Create an Address bean, name it address, and set all of its fields using setter injection -->
 
-       <!-- 4. Create a PersonBean instance with sur- and firstName, and set it's Address property!  -->
+       <!-- 4. Create a PersonBean instance with sur- and firstName, name it personBeanConfigured, and set it's Address property!  -->
 
        <!-- 5. Create an XMLParser using the ParserFactory factory class. This task is somewhat tricky, involves an additional required step -->
 
